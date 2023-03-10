@@ -1,0 +1,5 @@
+
+public class Camisa {
+	private String tipo;
+	private int numero;
+}

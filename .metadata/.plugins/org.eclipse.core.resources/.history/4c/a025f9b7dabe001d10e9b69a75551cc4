@@ -1,0 +1,10 @@
+
+public class Calca extends Vestimenta{
+	private int numero;
+
+	@Override
+	public String toString() {
+		return "Calca [numero=" + numero + "]";
+	}
+	
+}

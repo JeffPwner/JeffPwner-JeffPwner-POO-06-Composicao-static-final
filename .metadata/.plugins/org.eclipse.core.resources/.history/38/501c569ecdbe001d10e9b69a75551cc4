@@ -1,0 +1,11 @@
+
+public class Camisa {
+	private String tipo;
+	private int numero;
+	@Override
+	public String toString() {
+		return "Camisa [tipo=" + tipo + ", numero=" + numero + "]";
+	}
+	
+	
+}

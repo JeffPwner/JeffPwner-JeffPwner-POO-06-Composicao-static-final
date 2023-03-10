@@ -1,0 +1,54 @@
+
+public class GuardaRoupas{
+	
+	private Vestido[] vestidos;
+	private Calca[] calcas;
+	private Camisa[] camisas;
+	
+	public static void main(String[] args) {
+		
+		GuardaRoupas gr = new GuardaRoupas(10, 10, 10);
+		Vestido v = new Vestido();
+		v.setLongo(true);
+		gr.guardar(v);
+		gr.listar();
+	}
+	
+	
+	public GuardaRoupas(int numVest, int numCalcas, int numCam) {
+		super();
+		this.vestidos = new Vestido[numVest];
+		this.calcas = new Calca[numCalcas];
+		this.camisas = new Camisa[numCam];
+	}
+	
+	public void guardar(Vestido vestido) {
+		for(int i = 0; i < vestidos.length; i++) {
+			if (vestidos[i] == null) {
+				vestidos[i] = vestido;
+				break;
+			}
+		}
+	}
+	
+	public void guardar(Camisa camisa) {
+		
+	}
+	
+	public void guardar(Calca calca) {
+		
+	}
+	
+	public void listar() {
+		for(int i = 0; i < vestidos.length; i++) {
+			System.out.println(vestidos[i]);
+		}
+		for(int i = 0; i < calcas.length; i++) {
+			System.out.println(calcas[i]);
+		}
+		for(int i = 0; i < camisas.length; i++) {
+			System.out.println(camisas[i]);
+		}
+	}
+	
+}

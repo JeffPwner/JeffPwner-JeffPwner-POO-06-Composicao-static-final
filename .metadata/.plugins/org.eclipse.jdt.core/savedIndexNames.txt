@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\evers\Desktop\FATEC\5- Quarto Ciclo\Desenvolvimento para Servidores II\POO-06-Composicao-static-final\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+194237608.index
+688131637.index

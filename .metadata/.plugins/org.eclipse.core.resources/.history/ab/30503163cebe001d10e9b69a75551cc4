@@ -1,0 +1,41 @@
+
+public class Vestimenta extends GuardaRoupas{
+	private String cor;
+	private String tecido;
+	private int cont;
+	
+	public int obterNumeroDeVestimentas() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Vestimenta [cor=" + cor + ", tecido=" + tecido + ", cont=" + cont + "]";
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getTecido() {
+		return tecido;
+	}
+
+	public void setTecido(String tecido) {
+		this.tecido = tecido;
+	}
+
+	public int getCont() {
+		return cont;
+	}
+
+	public void setCont(int cont) {
+		this.cont = cont;
+	}
+	
+}
+

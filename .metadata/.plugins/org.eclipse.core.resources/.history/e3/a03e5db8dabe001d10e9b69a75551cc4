@@ -1,0 +1,11 @@
+
+public class Vestido extends Vestimenta{
+	private boolean longo;
+
+	@Override
+	public String toString() {
+		return "Vestido [longo=" + longo + "]";
+	}
+
+	
+}
